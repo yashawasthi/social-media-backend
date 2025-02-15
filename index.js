@@ -9,7 +9,7 @@ app.get("/",(req,res)=>{
     res.json("App working fine");
 });
 
-let PORT=process.env.POR || 3000;
+let PORT=process.env.PORT || 3000;
 app.listen(PORT,()=>{
     console.log(`App is running at port ${PORT}`)
 })
