@@ -10,6 +10,6 @@ app.get("/",(req,res)=>{
 });
 
 let PORT=process.env.POR || 3000;
-app.listen(3000,()=>{
+app.listen(PORT,()=>{
     console.log(`App is running at port ${PORT}`)
 })
