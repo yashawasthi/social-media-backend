@@ -9,6 +9,10 @@ app.get("/",(req,res)=>{
     res.json("App working fine");
 });
 
+app.get("/branch",(req,res)=>{
+    res.json("Branch working fine");
+});
+
 let PORT=process.env.PORT || 3000;
 app.listen(PORT,()=>{
     console.log(`App is running at port ${PORT}`)
